@@ -1,0 +1,14 @@
+com/logsjuggler/core/logsLoaders/LogsLoader.java
+ com.logsjuggler.core.logsLoaders.LogsLoader
+com/logsjuggler/core/LogsManagerImpl.java
+ com.logsjuggler.core.LogsManagerImpl
+com/logsjuggler/core/logsStorageFormats/LogsStorageFormat.java
+ com.logsjuggler.core.logsStorageFormats.LogsStorageFormat
+com/logsjuggler/core/LogsManager.java
+ com.logsjuggler.core.LogsManager
+com/logsjuggler/core/logsStorageFormats/LogsStorageFormatCode.java
+ com.logsjuggler.core.logsStorageFormats.LogsStorageFormatCode
+com/logsjuggler/core/logsLoaders/FileLogsLoader.java
+ com.logsjuggler.core.logsLoaders.FileLogsLoader
+com/logsjuggler/core/logsStorageFormats/FileLogsStorageFormat.java
+ com.logsjuggler.core.logsStorageFormats.FileLogsStorageFormat

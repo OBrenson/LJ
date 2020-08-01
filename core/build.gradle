@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+ext{
+    springVersion = '5.0.0.RELEASE'
+    spring = [context :"org.springframework:spring-context:$springVersion"]
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    springVersion = '5.0.0.RELEASE'
+    compile("org.springframework:spring-context:$springVersion")
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+task runTest(type: JavaExec, dependsOn: test){
+    main= 'TestCore'
+    classpath sourceSets.test.runtimeClasspath
+}
